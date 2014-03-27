@@ -8,6 +8,7 @@ html{
 	background-color: #E6E6D3;
 	padding-left: 30px;
 	max-width: 1600px;
+	/* border: 1px solid #F00; */
 	overflow: scroll;
 	margin-bottom: 75px;
 }
@@ -30,7 +31,7 @@ html{
 .page-header{
 	border-bottom: 0px;
 	margin-bottom: -48px;
-	padding-top: 0px;
+	padding-top: 40px;
 }
 	
 	.page-header h1 span{
@@ -39,14 +40,30 @@ html{
 		padding: 5px;
 	}
 
+/*#top{
+	width: 30px;
+	height: 80px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	background: #453f42;
+	color:#cecece;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	min-width: 195px;
+	box-shadow: 6px 6px 1px #888888;
+	border: 1px solid #cecece;
+	position: relative;
+}	
+*/
 #middle{
 	width: 100%;
 	border-top: 2px solid #666;
-	border-bottom: 2px solid #666;
-	padding-bottom: 10px;
 	margin-right: 0px;
 	margin-left: 0px;
 }
+
+
 
 	#middle div {
 		padding-left: 0px;
@@ -60,7 +77,9 @@ html{
 			height: 100%;
 			width: 95%;
 			padding: 5px;
-        }
+
+
+		}
 
 #blurb {
 	width: 75%;
@@ -68,27 +87,37 @@ html{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
-	font-size: 16px;
 }
 
-.control-group{
-	text-align: center;
-}
 
-#textinput{
-	width: 170px;
-	border-radius: 1px;
-}
+.footer-left{
+  position: fixed;
+  /*margin-top: -150px;  negative value of footer height */
+  height: 75px;
+  clear:both;
+  /*margin-left: -15px;
+  margin-right: -15px;*/
+  width: 50%;
+  bottom: 0px;
+  left: 0px;
+  padding: 10px;
+  background-color: #E6E6D3;
+} 
 
-#textarea{
-	width: 270px;
-	height: 100px;
-	border-radius: 1px;
-	border: 1px solid #666;
-}
+	.footer span{
+		color: #333333;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 20px;
+		font-weight: medium;
+	}
 
-#button{
-	border-radius: 2px;
-	padding-top: 20px;
-	font-size: small;
+
+	.footer form{
+
+  		border-top: 2px solid #666;
+	}
+
+.form-group{
+	width: 25%;
+	float: right;
 }
