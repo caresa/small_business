@@ -80,6 +80,10 @@ html{
 	font-size: 16px;
 }
 
+#about{
+	padding-top: 16px;
+}
+
 .control-group{
 	text-align: center;
 }
