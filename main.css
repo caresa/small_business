@@ -80,27 +80,9 @@ html{
 	font-size: 16px;
 }
 
-#about{
-	padding-top: 16px;
-}
-
-.control-group{
-	text-align: center;
-}
-
-#textinput{
-	width: 270px;
-	border-radius: 1px;
-}
-
-#textarea{
-	width: 270px;
-	height: 100px;
-	border-radius: 1px;
-	border: 1px solid #666;
-}
 
 #button{
+	float: right;
 	border-radius: 2px;
 	padding-top: 20px;
 	font-size: small;
