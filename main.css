@@ -80,13 +80,11 @@ html{
 	font-size: 16px;
 }
 
-
-#button{
-	float: right;
-	border-radius: 2px;
-	padding-top: 20px;
-	font-size: small;
+#exampleInputEmail1 {
+	display: inline;
+	width: 68%;
 }
+
 
 /*.footer{
 	position: fixed;
